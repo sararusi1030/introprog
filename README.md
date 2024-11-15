@@ -7,3 +7,5 @@
 3. Conditional statements and logical operators
 
 4. Loops
+
+5. Functions
