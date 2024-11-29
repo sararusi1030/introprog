@@ -13,3 +13,5 @@
 6. Data Structures(Lists)
 
 7. File handling
+
+8. Data Structures (Dictionary)
