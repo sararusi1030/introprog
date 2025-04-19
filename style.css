@@ -1,0 +1,115 @@
+/* Apply box-sizing to all elements for more predictable layout sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body with a fixed background image and base font */
+body {
+  background-image: url('images/background.jpg'); /* Path to background image */
+  background-size: cover; /* Ensure background covers entire screen */
+  background-repeat: no-repeat; /* Prevent background image repetition */
+  background-position: center center; /* Center the background image */
+  background-attachment: fixed; /* Fix background on scroll */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center and constrain the main container content */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the main title with white color and shadow for contrast */
+h1 {
+  margin-top: 20px;
+  color: white;
+  font-size: 2em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Soft shadow for better readability */
+}
+
+/* Style the search box container with soft colors and rounded corners */
+.search-box {
+  background: #f3e8ff; /* Light purple background */
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Subtle shadow effect */
+  text-align: left;
+}
+
+/* Label styling for form inputs */
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+/* Input and select field styling */
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+/* Style the search button */
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #5a189a; /* Deep purple */
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Change button color on hover for interactivity */
+form button:hover {
+  background-color: #7b2cbf;
+}
+
+/* Container for displaying search results */
+#results {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Style for each book result box */
+.book-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px; /* Adds spacing between book results */
+}
+
+/* Highlight box for popular books */
+.highlight-popular {
+  border: 2px solid rgb(93, 0, 255);
+  background-color: #f3e8ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Label styling for indicating popular books */
+.popular-label {
+  color: rgb(106, 0, 255);
+  font-weight: bold;
+}
+
+
+  
+  
+  
