@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- This tells the browser that the document type is HTML5 -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Ensures proper rendering and touch zooming on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Finder</title>
+
+  <!-- Links the external CSS file to style the page -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Main container to hold all content -->
+  <div class="container">
+    <h1>Book Finder</h1>
+
+    <!-- This box contains the search form inputs -->
+    <div class="search-box">
+      <form id="book-search-form">
+        
+        <!-- Dropdown for selecting book genre -->
+        <label for="genre">Genre:</label>
+        <select id="genre" required>
+          <option value="">Select Genre</option>
+          <option value="Dark Fantasy">Dark Fantasy</option>
+          <option value="Mythic Fiction">Mythic Fiction</option>
+          <option value="Supernatural Thriller">Supernatural Thriller</option>
+          <option value="GameLit / LitRPG">GameLit / LitRPG</option>
+          <option value="Cyberpunk Fantasy">Cyberpunk Fantasy</option>
+          <option value="Occult Fiction">Occult Fiction</option>
+        </select>
+
+        <!-- Input for author name -->
+        <label for="author">Author:</label>
+        <input type="text" id="author" placeholder="Enter author name" />
+
+        <!-- Input for price filtering -->
+        <label for="price">Max Price (£):</label>
+        <input type="number" id="price" placeholder="e.g. 20" min="1" />
+
+        <!-- Dropdown for selecting language -->
+        <label for="language">Language:</label>
+        <select id="language" required>
+          <option value="">Select Language</option>
+          <option value="English">English</option>
+          <option value="Spanish">Spanish</option>
+        </select>
+
+        <!-- Button to submit the form and trigger search -->
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <!-- Area where the filtered book results will be displayed -->
+    <div id="results"></div>
+  </div>
+
+  <!-- Links the external JavaScript file that handles form logic -->
+  <script src="script.js"></script>
+</body>
+</html>
