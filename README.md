@@ -40,7 +40,7 @@ The BOOK Finder App is an interactive web application that allows users to disco
    - `books.js`
    - `images/background.jpg`
 2. Open `index.html` in your web browser.
-3. Start searching and exploring book options. The "Genre" and "Language" fields must be selected — if left empty, the browser will show a validation warning saying "Please select an item in the list.".
+3. Start searching and exploring book options. The "Genre" and "Language" fields must be selected. If left empty, the browser will show a validation warning saying "Please select an item in the list.".
 
 # Folder Structure
 BookFinderApp/ 
