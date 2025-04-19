@@ -30,7 +30,7 @@ The BOOK Finder App is an interactive web application that allows users to disco
 # Design Notes
 - The app includes a custom background image to enhance visual appeal.
 - Responsive, user-friendly layout with clear typography and spacing.
-- The most popular book is given a **💜 "Most Popular Match"** label.
+- The most popular book is given a 💜 "Most Popular Match" label.
 
 # How to Run
 1. All project files are in the same directory:
