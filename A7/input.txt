@@ -1,4 +1,1 @@
-Jane_Smith, Introduction to Programming, 33, 30
-Jane_Smith, Introduction to Web Scripting, 33, 30
-Jane_Smith, Introduction to Programming, 34, 40
 
